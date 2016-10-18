@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_view_cont"
+    android:layout_width="300dp"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+   <TextView
+       android:layout_width="match_parent"
+       android:text="是否发送您的拜访名片给对方？"
+       android:gravity="center_vertical"
+       android:paddingLeft="20dp"
+       android:textColor="#323232"
+       android:layout_height="50dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#a7a7a7"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbars="none" >
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="取消"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="确定"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
