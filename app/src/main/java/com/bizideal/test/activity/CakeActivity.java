@@ -28,6 +28,7 @@ public class CakeActivity extends Activity {
         private CommonAdapter mAdapter;
 
     private  String  string="测试";
+    private  String  string2="测试2";
 
     @Override
         protected void onCreate(Bundle savedInstanceState) {
