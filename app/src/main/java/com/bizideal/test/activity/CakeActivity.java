@@ -27,6 +27,8 @@ public class CakeActivity extends Activity {
         private ListView mLv;
         private CommonAdapter mAdapter;
 
+    private  String  string="测试";
+
     @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
